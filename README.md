@@ -1,0 +1,1 @@
+This repository have all the exercises that I have done while coursing the Trybe Web Desvelopment course.
