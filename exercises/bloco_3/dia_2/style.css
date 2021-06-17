@@ -1,0 +1,32 @@
+body{
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 65px;
+    font-family: sans-serif;
+    color: rgb(4, 0, 255);
+}
+
+p {
+    font-weight: 600;
+    font-size: 48px;
+}
+
+ul {
+    background-color: lightblue;
+}
+
+.text-style {
+    background-color: lavender;
+}
+
+#yellow {
+    background-color: yellow;
+}
+#red {
+    background-color: red;
+}
+#brown {
+    background-color: brown;
+}
