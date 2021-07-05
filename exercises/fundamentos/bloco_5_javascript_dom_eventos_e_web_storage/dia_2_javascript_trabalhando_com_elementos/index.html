@@ -57,7 +57,13 @@
   </head>
   <body>
     <script>
-      // COLOQUE SEU CÓDIGO AQUI
+        let titulo = document.createElement('h1');
+        document.body.appendChild(titulo).innerText = 'Exercícios 5.2 - JavaScript e DOM';
+        let mainContent = document.createElement('div');
+        document.body.appendChild(mainContent).className = 'main-content';
+        let centerContent = document.createElement('div');
+        document.querySelector('.main-content').appendChild(centerContent).className = 'center-content';
+        
     </script>
   </body>
 </html>
