@@ -72,7 +72,13 @@
         let image = document.createElement('img');
         image.className= 'small-image';
         document.querySelector('.left-content').appendChild(image).src = 'https://picsum.photos/200';
-        
+        let orderedList = document.createElement('ol');
+        document.querySelector('.right-content').appendChild(orderedList);
+        for(let index = 0; index < 10; index += 1){
+            let numeros = ['um', 'dois', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez']
+            let listItem = document.createElement('li');
+            document.querySelector('ol').appendChild(listItem).innerText= numeros[index];
+        }
     </script>
   </body>
 </html>
