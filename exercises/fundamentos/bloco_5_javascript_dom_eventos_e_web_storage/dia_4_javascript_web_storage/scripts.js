@@ -4,7 +4,7 @@ window.onload = function() {
   txtColor.value = localStorage.getItem('txtColorStorage');
   changeTxtColor();
   txtSize.value = localStorage.getItem('txtSizeStorage');
-  changeTxtSize;
+  changeTxtSize();
   lineHeight.value = localStorage.getItem('lineHeightStorage');
   changelineHeight();
   font.value = localStorage.getItem('fontStorage');
