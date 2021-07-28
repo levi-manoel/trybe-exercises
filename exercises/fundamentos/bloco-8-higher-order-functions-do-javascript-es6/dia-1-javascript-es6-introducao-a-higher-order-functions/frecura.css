@@ -1,0 +1,53 @@
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  padding: 3em;
+}
+
+header h1 {
+  font-size: 60px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  color: black;
+  height: 20em;
+  align-items: center;
+  margin: 0 1em;
+}
+main label {
+  font-size: 30px;
+  margin-bottom: 1em;
+}
+
+main input {
+  font-size: 50px;
+  width: 10ch;
+  text-align: center;
+}
+
+main button {
+  font-size: 30px;
+  width: 16.7ch;
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 1em 0;
+  cursor: pointer;
+}
+
+html {
+  background-color: black;
+}
+
